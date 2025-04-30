@@ -1,1 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesignCraft | Modern Web Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">DesignCraft</a>
+            <nav>
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Crafting <span>Beautiful</span> Web Experiences</h1>
+                <p>We design and build responsive websites that adapt perfectly to any device, combining modern aesthetics with powerful functionality.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                    <a href="#portfolio" class="btn btn-secondary">Our Portfolio</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg" alt="Web design team working together">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="features">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p class="section-desc">We combine technical expertise with creative innovation to deliver outstanding web solutions.</p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon">📱</div>
+                    <h3>Responsive Design</h3>
+                    <p>Our designs adapt seamlessly to all devices, ensuring optimal user experience everywhere.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🎨</div>
+                    <h3>Creative Design</h3>
+                    <p>Unique, eye-catching designs that reflect your brand identity and message.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">⚡</div>
+                    <h3>Fast Performance</h3>
+                    <p>Optimized code and assets ensure your website loads quickly and runs smoothly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Our Portfolio</h2>
+            <p class="section-desc">Browse through some of our recent projects.</p>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">App</button>
+                <button class="filter-btn" data-filter="ui">UI</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <img src="https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg" alt="Project 1">
+                    <div class="portfolio-info">
+                        <h3>E-commerce Website</h3>
+                        <p>Web Design</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <img src="https://images.pexels.com/photos/6802042/pexels-photo-6802042.jpeg" alt="Project 2">
+                    <div class="portfolio-info">
+                        <h3>Mobile App</h3>
+                        <p>App Development</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ui">
+                    <img src="https://images.pexels.com/photos/5926382/pexels-photo-5926382.jpeg" alt="Project 3">
+                    <div class="portfolio-info">
+                        <h3>Dashboard Design</h3>
+                        <p>UI/UX Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="section-desc">Have a project in mind? Let's discuss how we can help.</p>
+            <div class="contact-grid">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>Address</h3>
+                        <p>123 Design Street, Creative City, 10001</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Email</h3>
+                        <p>info@designcraft.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Phone</h3>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DesignCraft</h3>
+                    <p>Creating beautiful, responsive web experiences that make an impact.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: info@briankitonyi.com</p>
+                    <p>Phone: +254743 882174</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kits En4s. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
